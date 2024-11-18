@@ -1,0 +1,120 @@
+[
+    {
+        "id": 28,
+        "firstName": "B",
+        "lastName": "B",
+        "dateOfBirth": "",
+        "address": "",
+        "jobPosition": "Manager",
+        "salary": "",
+        "team": [
+            {
+                "id": 12,
+                "firstName": "a",
+                "lastName": "a",
+                "dateOfBirth": "",
+                "address": "",
+                "jobPosition": "Employee",
+                "salary": ""
+            },
+            {
+                "id": 13,
+                "firstName": "1",
+                "lastName": "1",
+                "dateOfBirth": "",
+                "address": "",
+                "jobPosition": "Contractor",
+                "salary": ""
+            },
+            {
+                "id": 12,
+                "firstName": "a",
+                "lastName": "a",
+                "dateOfBirth": "",
+                "address": "",
+                "jobPosition": "Employee",
+                "salary": ""
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "firstName": "1",
+        "lastName": "1",
+        "dateOfBirth": "",
+        "address": "",
+        "jobPosition": "Contractor",
+        "contractPeriod": null,
+        "hourlyRate": "",
+        "salary": ""
+    },
+    {
+        "id": 30,
+        "firstName": "q",
+        "lastName": "q",
+        "dateOfBirth": "",
+        "address": "",
+        "jobPosition": "Employee",
+        "salary": ""
+    },
+    {
+        "id": 31,
+        "firstName": "A",
+        "lastName": "A",
+        "dateOfBirth": "",
+        "address": "",
+        "jobPosition": "Manager",
+        "salary": "",
+        "team": [
+            {
+                "id": 28,
+                "firstName": "B",
+                "lastName": "B",
+                "dateOfBirth": "",
+                "address": "",
+                "jobPosition": "Manager",
+                "salary": "",
+                "team": [
+                    {
+                        "id": 12,
+                        "firstName": "a",
+                        "lastName": "a",
+                        "dateOfBirth": "",
+                        "address": "",
+                        "jobPosition": "Employee",
+                        "salary": ""
+                    },
+                    {
+                        "id": 13,
+                        "firstName": "1",
+                        "lastName": "1",
+                        "dateOfBirth": "",
+                        "address": "",
+                        "jobPosition": "Contractor",
+                        "salary": ""
+                    },
+                    {
+                        "id": 12,
+                        "firstName": "a",
+                        "lastName": "a",
+                        "dateOfBirth": "",
+                        "address": "",
+                        "jobPosition": "Employee",
+                        "salary": ""
+                    }
+                ]
+            },
+            {
+                "id": 29,
+                "firstName": "1",
+                "lastName": "1",
+                "dateOfBirth": "",
+                "address": "",
+                "jobPosition": "Contractor",
+                "contractPeriod": null,
+                "hourlyRate": "",
+                "salary": ""
+            }
+        ]
+    }
+]
