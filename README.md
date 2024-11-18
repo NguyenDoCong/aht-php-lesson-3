@@ -7,3 +7,4 @@
 ### 18/11
 - PHP nhúng vào html có thể gây lỗi kể cả khi đã comment
 - Select Option không gửi được object
+- Nên có thiết kế trước để tránh bị rối
