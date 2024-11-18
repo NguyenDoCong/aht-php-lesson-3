@@ -6,3 +6,4 @@
 - Phạm vi private không truy cập được ở lớp con khi dùng json_encode
 ### 18/11
 - PHP nhúng vào html có thể gây lỗi kể cả khi đã comment
+- Select Option không gửi được object
