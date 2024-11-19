@@ -140,7 +140,7 @@ class Employee extends Person
 class Manager extends Employee
 {
     private $team = [];
-    public function displayTeam()
+    public function getTeam()
     {
         return $this->team;
     }
@@ -249,25 +249,54 @@ class EmployeeManager
             <?php
             foreach ($this->employees as $employee):
                 if ($employee->getID() == $id):
+                    if ($employee->jobPosition !== "Manager"):
             ?>
-                    <p>
-                        <?php echo "Full Name: " . $employee->getFirstName() . " " . $employee->getLastName() ?>
-                    </p>
-                    <p>
-                    </p>
-                    <p>
-                        <?php echo "Date Of Birth: " . $employee->getDateOfBirth() ?>
-                    </p>
-                    <p>
-                        <?php echo "Address: " . $employee->getAddress() ?>
-                    </p>
-                    <p>
-                        <?php echo "Job Position: " . $employee->jobPosition ?>
-                    </p>
-                    <p>
+                        <p>
+                            <?php echo "Full Name: " . $employee->getFirstName() . " " . $employee->getLastName() ?>
+                        </p>
+                        <p>
+                        </p>
+                        <p>
+                            <?php echo "Date Of Birth: " . $employee->getDateOfBirth() ?>
+                        </p>
+                        <p>
+                            <?php echo "Address: " . $employee->getAddress() ?>
+                        </p>
+                        <p>
+                            <?php echo "Job Position: " . $employee->jobPosition ?>
+                        </p>
+                        <!-- <p>
                         <?php echo "Salary: " . $employee->getSalary() ?>
-                    </p>
+                    </p> -->
+                    <?php
+                    else:
+                    ?>
+                        <p>
+                            <?php echo "Full Name: " . $employee->getFirstName() . " " . $employee->getLastName() ?>
+                        </p>
+                        <p>
+                        </p>
+                        <p>
+                            <?php echo "Date Of Birth: " . $employee->getDateOfBirth() ?>
+                        </p>
+                        <p>
+                            <?php echo "Address: " . $employee->getAddress() ?>
+                        </p>
+                        <p>
+                            <?php echo "Job Position: " . $employee->jobPosition ?>
+                        </p>
+                        <p>
+                            <?php echo "Salary: " . $employee->getSalary() ?>
+                        </p>
+                        <p>Team Member: </p>
+                        <?php
+                        foreach ($employee->getTeam() as $id => $mem): ?>
+                            <p><?php echo "Member " . $id + 1 . ": " . $mem->getFirstName() ?></p>
+                        <?php
+                        endforeach;
+                        ?>
             <?php
+                    endif;
                 endif;
             endforeach;
             ?>
